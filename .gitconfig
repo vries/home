@@ -1,0 +1,34 @@
+[user]
+	name = Tom de Vries
+	email = tom@codesourcery.com
+[merge "merge-changelog"]
+	name = GNU-style ChangeLog merge driver
+	driver = /usr/local/bin/git-merge-changelog %O %A %B
+[push]
+	default = simple
+[alias]
+# From http://stackoverflow.com/questions/15407075/how-could-i-use-git-bisect-to-find-the-first-good-commit#17153598
+	bisect-fixed = bisect bad
+        bisect-unfixed = bisect good
+
+# From https://git-scm.com/book/tr/v2/Git-Basics-Git-Aliases:
+	br = branch
+	st = status
+
+# The same linke suggests:
+#       co = checkout
+#       ci = commit
+# but I find them confusing. For br and st, we use the first two letters as
+# abbreviation. For commit, that is co, but that is used for checkout instead
+# (obviously, to match the svn co abbreviation).
+	com = commit
+        ch = checkout
+
+# Thought of my self:
+	sti = status --ignored
+
+# From: http://gitready.com/intermediate/2009/02/06/helpful-command-aliases.html
+	spull = !git-svn fetch && git-svn rebase
+	spush = !git-svn dcommit
+
+	pick = cherry-pick
