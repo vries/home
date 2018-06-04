@@ -1,6 +1,6 @@
 [user]
 	name = Tom de Vries
-	email = tom@codesourcery.com
+	email = tdevries@suse.de
 [merge "merge-changelog"]
 	name = GNU-style ChangeLog merge driver
 	driver = /usr/local/bin/git-merge-changelog %O %A %B
