@@ -1,2 +1,2 @@
-alias emacs='emacs -nw'
-#alias emacs='TERM=xterm emacs -nw'
+#alias emacs='emacs -nw'
+alias emacs='TERM=xterm emacs -nw'
