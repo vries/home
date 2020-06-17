@@ -32,3 +32,7 @@
 	spush = !git-svn dcommit
 
 	pick = cherry-pick
+
+#
+        current-branch = "!git rev-parse --abbrev-ref HEAD"
+        cb = "!git rev-parse --abbrev-ref HEAD"
