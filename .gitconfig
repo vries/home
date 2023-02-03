@@ -37,3 +37,4 @@
 	useAutoBase = true
 [pretty]
         fixes = Fixes: %h (\"%s\")
+        commit = commit %h (\"%s\")
