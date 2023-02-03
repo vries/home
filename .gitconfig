@@ -21,15 +21,10 @@
 # but I find them confusing. For br and st, we use the first two letters as
 # abbreviation. For commit, that is co, but that is used for checkout instead
 # (obviously, to match the svn co abbreviation).
-	com = commit
         ch = checkout
 
 # Thought of my self:
 	sti = status --ignored
-
-# From: http://gitready.com/intermediate/2009/02/06/helpful-command-aliases.html
-	spull = !git-svn fetch && git-svn rebase
-	spush = !git-svn dcommit
 
 	pick = cherry-pick
 
