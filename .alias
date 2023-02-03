@@ -1,6 +1,4 @@
 alias emacs=/home/vries/bin/emacs-nw.sh
-alias mutt='TMPDIR=/home/vries/patches/grouped mutt'
-alias beep='while true; do play /usr/share/sounds/gnome/default/alerts/glass.ogg -V0; sleep 60; done'
 alias isc="osc -A https://api.suse.de/"
 alias iosc="osc -A https://api.suse.de/"
 alias osc-local-build="osc build -p ../pkgs -k ../pkgs"
