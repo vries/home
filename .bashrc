@@ -1,5 +1,5 @@
 #export EDITOR="emacs -nw"
-export EDITOR=/home/vries/bin/emacs-nw.sh
+export EDITOR=/home/vries/scripts/emacs-nw.sh
 TERM=xterm
 export PAGER=more
 

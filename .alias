@@ -1,4 +1,5 @@
-alias emacs=/home/vries/bin/emacs-nw.sh
+#alias emacs="emacs -nw"
+alias emacs=/home/vries/scripts/emacs-nw.sh
 alias isc="osc -A https://api.suse.de/"
 alias iosc="osc -A https://api.suse.de/"
 alias osc-local-build="osc build -p ../pkgs -k ../pkgs"
