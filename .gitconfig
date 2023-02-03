@@ -36,3 +36,9 @@
 #
         current-branch = "!git rev-parse --abbrev-ref HEAD"
         cb = "!git rev-parse --abbrev-ref HEAD"
+[pull]
+	rebase = true
+[format]
+	useAutoBase = true
+[pretty]
+        fixes = Fixes: %h (\"%s\")
